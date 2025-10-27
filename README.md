@@ -43,6 +43,7 @@ FunctionalInterfaces - функциональные интерфейсы
 Если результат = 0: числа равны
 
 Выводим числовой результат и текстовую интерпретацию
+
 <img width="353" height="137" alt="image" src="https://github.com/user-attachments/assets/1c734fad-07a3-4adb-9053-a68b7bf7b643" />
 
 Задача 2: Сравнение студентов по среднему баллу
