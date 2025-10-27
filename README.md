@@ -94,6 +94,7 @@ FunctionalInterfaces - функциональные интерфейсы
 Если результат = 0: средние баллы равны
 
 Выводим подробную информацию о студентах и результат сравнения
+
 <img width="638" height="161" alt="image" src="https://github.com/user-attachments/assets/9490d5d8-268e-4ddf-9b65-f2ed92d5f4c9" />
 
 Задача 3: Начало отсчета - коробка с трехмерной точкой
@@ -120,6 +121,7 @@ FunctionalInterfaces - функциональные интерфейсы
 Выводим сообщение о successful размещении
 
 Показываем состояние коробки после операции
+
 <img width="392" height="176" alt="image" src="https://github.com/user-attachments/assets/c9aa0489-9bc9-47b8-b59b-e298b3a83e9f" />
 
 <img width="385" height="174" alt="image" src="https://github.com/user-attachments/assets/3b1aa2b2-65cb-41f4-bddc-04e8a8b38af8" />
@@ -138,6 +140,7 @@ FunctionalInterfaces - функциональные интерфейсы
 Для каждой строки в списке вычисляется ее длина
 
 Возвращается новый список с длинами строк
+
 <img width="324" height="154" alt="image" src="https://github.com/user-attachments/assets/d7285189-f289-438f-8269-3f06139f23b7" />
 
 
@@ -150,6 +153,7 @@ FunctionalInterfaces - функциональные интерфейсы
 Для каждого числа вычисляется абсолютное значение
 
 Возвращается новый список с модулями
+
 <img width="351" height="159" alt="image" src="https://github.com/user-attachments/assets/71a4f304-beab-4ce8-98e8-cd43f089e15b" />
 
 Нахождение максимумов в массивах:
@@ -188,6 +192,7 @@ FunctionalInterfaces - функциональные интерфейсы
 Если условие истинно, строка добавляется в результат
 
 Возвращается список строк длиной ≥ 3 символов
+
 <img width="415" height="161" alt="image" src="https://github.com/user-attachments/assets/4e77dec5-434a-404f-b2d7-55dac8657062" />
 
 Фильтрация положительных чисел:
@@ -201,6 +206,7 @@ FunctionalInterfaces - функциональные интерфейсы
 Если условие истинно, число добавляется в результат
 
 Возвращается список положительных чисел
+
 <img width="363" height="164" alt="image" src="https://github.com/user-attachments/assets/47cfdffd-758b-455d-ba25-b64e8824f05f" />
  
  Фильтрация массивов без положительных элементов
@@ -237,6 +243,7 @@ FunctionalInterfaces - функциональные интерфейсы
 Возврат результата:
 
 Возвращаем отфильтрованный список массивов
+
 <img width="488" height="176" alt="image" src="https://github.com/user-attachments/assets/336eebfc-be04-49e5-b98e-cc4e090005d0" />
 
 Задача 6: Демонстрация сокращения (reduce)
@@ -255,6 +262,7 @@ FunctionalInterfaces - функциональные интерфейсы
 Для каждой строки в списке: аккумулятор = аккумулятор + строка
 
 Возвращается результирующая строка
+
 <img width="337" height="154" alt="image" src="https://github.com/user-attachments/assets/a1991e0c-59b9-4e98-8ca5-b75557316fb8" />
 
 Суммирование чисел:
@@ -268,7 +276,9 @@ FunctionalInterfaces - функциональные интерфейсы
 Для каждого числа в списке: аккумулятор = аккумулятор + число
 
 Возвращается сумма всех чисел
+
 <img width="307" height="161" alt="image" src="https://github.com/user-attachments/assets/6a2fb0b6-a424-4113-80a0-51323c44b45c" />
+
 Общее количество элементов во вложенных списках:
 Инициализация:
 
@@ -287,6 +297,7 @@ FunctionalInterfaces - функциональные интерфейсы
 Возврат результата:
 
 Возвращаем итоговое значение аккумулятора
+
 <img width="482" height="219" alt="image" src="https://github.com/user-attachments/assets/5933f6f3-092b-480c-8cef-65d314980f9d" />
 
 Задача 7: Коллекционирование (collect)
@@ -305,6 +316,7 @@ CollectionCreator: создает Map с ключами "positive" и "negative"
 CollectionAdder: для каждого числа проверяет знак и добавляет в соответствующий список
 
 Возвращается Map с двумя списками
+
 <img width="450" height="184" alt="image" src="https://github.com/user-attachments/assets/9b6dece5-39e9-499a-be2e-ae24a5efc325" />
 
 Группировка строк по длине:
@@ -318,6 +330,7 @@ CollectionCreator: создает пустой HashMap
 CollectionAdder: для каждой строки вычисляет длину, создает список если нужно, добавляет строку
 
 Возвращается Map где ключ - длина строки, значение - список строк этой длины
+
 <img width="262" height="200" alt="image" src="https://github.com/user-attachments/assets/b0155e41-c9fe-4bff-b7d0-416f306d7570" />
 
 Удаление дубликатов:
@@ -331,6 +344,7 @@ CollectionCreator: создает новый HashSet
 CollectionAdder: использует метод Set.add() для добавления элементов
 
 Возвращается Set с уникальными строками
+
 <img width="298" height="152" alt="image" src="https://github.com/user-attachments/assets/4be1f8b6-01ba-45c8-8f59-eb68b132e38a" />
 
 Алгоритмы работы методов GenericUtils
